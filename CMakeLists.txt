@@ -3,4 +3,7 @@ project(aprendiendoC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(aprendiendoC main.c)
+add_executable(aprendiendoC main.c video_1.c)
+add_executable(main.c main.c)
+
+add_executable(video_1.c video_1.c)
