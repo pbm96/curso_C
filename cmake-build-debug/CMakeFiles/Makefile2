@@ -65,39 +65,76 @@ CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/aprendiendoC
 CMAKE_BINARY_DIR = /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/video_2.c.dir
+# Target rules for target CMakeFiles/aprendiendoC.dir
 
 # All Build rule for target.
-CMakeFiles/video_2.c.dir/all:
-	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/depend
-	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target video_2.c"
-.PHONY : CMakeFiles/video_2.c.dir/all
+CMakeFiles/aprendiendoC.dir/all:
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/depend
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target aprendiendoC"
+.PHONY : CMakeFiles/aprendiendoC.dir/all
 
 # Include target in all.
-all: CMakeFiles/video_2.c.dir/all
+all: CMakeFiles/aprendiendoC.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/video_2.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video_2.c.dir/all
+CMakeFiles/aprendiendoC.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aprendiendoC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/video_2.c.dir/rule
+.PHONY : CMakeFiles/aprendiendoC.dir/rule
 
 # Convenience name for target.
-video_2.c: CMakeFiles/video_2.c.dir/rule
+aprendiendoC: CMakeFiles/aprendiendoC.dir/rule
 
-.PHONY : video_2.c
-
-# clean rule for target.
-CMakeFiles/video_2.c.dir/clean:
-	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/clean
-.PHONY : CMakeFiles/video_2.c.dir/clean
+.PHONY : aprendiendoC
 
 # clean rule for target.
-clean: CMakeFiles/video_2.c.dir/clean
+CMakeFiles/aprendiendoC.dir/clean:
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/clean
+.PHONY : CMakeFiles/aprendiendoC.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/aprendiendoC.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/video_3.c.dir
+
+# All Build rule for target.
+CMakeFiles/video_3.c.dir/all:
+	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/depend
+	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target video_3.c"
+.PHONY : CMakeFiles/video_3.c.dir/all
+
+# Include target in all.
+all: CMakeFiles/video_3.c.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/video_3.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video_3.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/video_3.c.dir/rule
+
+# Convenience name for target.
+video_3.c: CMakeFiles/video_3.c.dir/rule
+
+.PHONY : video_3.c
+
+# clean rule for target.
+CMakeFiles/video_3.c.dir/clean:
+	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/clean
+.PHONY : CMakeFiles/video_3.c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/video_3.c.dir/clean
 
 .PHONY : clean
 
@@ -108,7 +145,7 @@ clean: CMakeFiles/video_2.c.dir/clean
 CMakeFiles/video_1.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target video_1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target video_1.c"
 .PHONY : CMakeFiles/video_1.c.dir/all
 
 # Include target in all.
@@ -139,39 +176,39 @@ clean: CMakeFiles/video_1.c.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/aprendiendoC.dir
+# Target rules for target CMakeFiles/video_2.c.dir
 
 # All Build rule for target.
-CMakeFiles/aprendiendoC.dir/all:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/depend
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target aprendiendoC"
-.PHONY : CMakeFiles/aprendiendoC.dir/all
+CMakeFiles/video_2.c.dir/all:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/depend
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target video_2.c"
+.PHONY : CMakeFiles/video_2.c.dir/all
 
 # Include target in all.
-all: CMakeFiles/aprendiendoC.dir/all
+all: CMakeFiles/video_2.c.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/aprendiendoC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aprendiendoC.dir/all
+CMakeFiles/video_2.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video_2.c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/aprendiendoC.dir/rule
+.PHONY : CMakeFiles/video_2.c.dir/rule
 
 # Convenience name for target.
-aprendiendoC: CMakeFiles/aprendiendoC.dir/rule
+video_2.c: CMakeFiles/video_2.c.dir/rule
 
-.PHONY : aprendiendoC
-
-# clean rule for target.
-CMakeFiles/aprendiendoC.dir/clean:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/clean
-.PHONY : CMakeFiles/aprendiendoC.dir/clean
+.PHONY : video_2.c
 
 # clean rule for target.
-clean: CMakeFiles/aprendiendoC.dir/clean
+CMakeFiles/video_2.c.dir/clean:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/clean
+.PHONY : CMakeFiles/video_2.c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/video_2.c.dir/clean
 
 .PHONY : clean
 
@@ -182,7 +219,7 @@ clean: CMakeFiles/aprendiendoC.dir/clean
 CMakeFiles/main.c.dir/all:
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/depend
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target main.c"
 .PHONY : CMakeFiles/main.c.dir/all
 
 # Include target in all.
