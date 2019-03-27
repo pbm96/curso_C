@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/video_2.c.dir/video_2.c.o  -o video_2.c 

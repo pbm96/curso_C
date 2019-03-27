@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named video_2.c
+
+# Build rule for target.
+video_2.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_2.c
+.PHONY : video_2.c
+
+# fast build rule for target.
+video_2.c/fast:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/build
+.PHONY : video_2.c/fast
+
+#=============================================================================
 # Target rules for targets named video_1.c
 
 # Build rule for target.
@@ -209,6 +222,36 @@ video_1.c.s:
 	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_1.c.s
 .PHONY : video_1.c.s
 
+video_2.o: video_2.c.o
+
+.PHONY : video_2.o
+
+# target to build an object file
+video_2.c.o:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.o
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.o
+.PHONY : video_2.c.o
+
+video_2.i: video_2.c.i
+
+.PHONY : video_2.i
+
+# target to preprocess a source file
+video_2.c.i:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.i
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.i
+.PHONY : video_2.c.i
+
+video_2.s: video_2.c.s
+
+.PHONY : video_2.s
+
+# target to generate assembly for a file
+video_2.c.s:
+	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.s
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.s
+.PHONY : video_2.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -217,6 +260,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... video_2.c"
 	@echo "... video_1.c"
 	@echo "... aprendiendoC"
 	@echo "... main.c"
@@ -226,6 +270,9 @@ help:
 	@echo "... video_1.o"
 	@echo "... video_1.i"
 	@echo "... video_1.s"
+	@echo "... video_2.o"
+	@echo "... video_2.i"
+	@echo "... video_2.s"
 .PHONY : help
 
 
