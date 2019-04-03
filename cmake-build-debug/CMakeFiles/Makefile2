@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /home/pablo/Proyectos/curso_C
 CMAKE_BINARY_DIR = /home/pablo/Proyectos/curso_C/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/video_6.c.dir
+
+# All Build rule for target.
+CMakeFiles/video_6.c.dir/all:
+	$(MAKE) -f CMakeFiles/video_6.c.dir/build.make CMakeFiles/video_6.c.dir/depend
+	$(MAKE) -f CMakeFiles/video_6.c.dir/build.make CMakeFiles/video_6.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target video_6.c"
+.PHONY : CMakeFiles/video_6.c.dir/all
+
+# Include target in all.
+all: CMakeFiles/video_6.c.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/video_6.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/video_6.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/video_6.c.dir/rule
+
+# Convenience name for target.
+video_6.c: CMakeFiles/video_6.c.dir/rule
+
+.PHONY : video_6.c
+
+# clean rule for target.
+CMakeFiles/video_6.c.dir/clean:
+	$(MAKE) -f CMakeFiles/video_6.c.dir/build.make CMakeFiles/video_6.c.dir/clean
+.PHONY : CMakeFiles/video_6.c.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/video_6.c.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/video_5.c.dir
 
 # All Build rule for target.
 CMakeFiles/video_5.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target video_5.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target video_5.c"
 .PHONY : CMakeFiles/video_5.c.dir/all
 
 # Include target in all.
@@ -108,7 +145,7 @@ clean: CMakeFiles/video_5.c.dir/clean
 CMakeFiles/main.c.dir/all:
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/depend
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target main.c"
 .PHONY : CMakeFiles/main.c.dir/all
 
 # Include target in all.
@@ -145,7 +182,7 @@ clean: CMakeFiles/main.c.dir/clean
 CMakeFiles/video_3.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target video_3.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target video_3.c"
 .PHONY : CMakeFiles/video_3.c.dir/all
 
 # Include target in all.
@@ -182,7 +219,7 @@ clean: CMakeFiles/video_3.c.dir/clean
 CMakeFiles/curso_C.dir/all:
 	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/depend
 	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target curso_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target curso_C"
 .PHONY : CMakeFiles/curso_C.dir/all
 
 # Include target in all.
@@ -192,7 +229,7 @@ all: CMakeFiles/curso_C.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/curso_C.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/curso_C.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/curso_C.dir/rule
@@ -219,7 +256,7 @@ clean: CMakeFiles/curso_C.dir/clean
 CMakeFiles/video_2.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target video_2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target video_2.c"
 .PHONY : CMakeFiles/video_2.c.dir/all
 
 # Include target in all.
@@ -256,7 +293,7 @@ clean: CMakeFiles/video_2.c.dir/clean
 CMakeFiles/video_1.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target video_1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target video_1.c"
 .PHONY : CMakeFiles/video_1.c.dir/all
 
 # Include target in all.
@@ -293,7 +330,7 @@ clean: CMakeFiles/video_1.c.dir/clean
 CMakeFiles/video_4.c.dir/all:
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/depend
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target video_4.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target video_4.c"
 .PHONY : CMakeFiles/video_4.c.dir/all
 
 # Include target in all.
