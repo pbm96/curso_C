@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pablo/CLionProjects/aprendiendoC/video_2.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/video_2.c.dir/video_2.c.o"
+  "/home/pablo/Proyectos/curso_C/video_2.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_2.c.dir/video_2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

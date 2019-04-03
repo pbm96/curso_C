@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/pablo/CLionProjects/aprendiendoC/main.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/main.c.o"
-  "/home/pablo/CLionProjects/aprendiendoC/video_1.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_1.c.o"
-  "/home/pablo/CLionProjects/aprendiendoC/video_2.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_2.c.o"
-  "/home/pablo/CLionProjects/aprendiendoC/video_3.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_3.c.o"
-  "/home/pablo/CLionProjects/aprendiendoC/video_4.c" "/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_4.c.o"
+  "/home/pablo/Proyectos/curso_C/main.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/main.c.o"
+  "/home/pablo/Proyectos/curso_C/video_1.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_1.c.o"
+  "/home/pablo/Proyectos/curso_C/video_2.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_2.c.o"
+  "/home/pablo/Proyectos/curso_C/video_3.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_3.c.o"
+  "/home/pablo/Proyectos/curso_C/video_4.c" "/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/video_4.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

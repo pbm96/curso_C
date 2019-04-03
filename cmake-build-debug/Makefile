@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/aprendiendoC
+CMAKE_SOURCE_DIR = /home/pablo/Proyectos/curso_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pablo/Proyectos/curso_C/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,19 +124,6 @@ main.c/fast:
 .PHONY : main.c/fast
 
 #=============================================================================
-# Target rules for targets named aprendiendoC
-
-# Build rule for target.
-aprendiendoC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aprendiendoC
-.PHONY : aprendiendoC
-
-# fast build rule for target.
-aprendiendoC/fast:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/build
-.PHONY : aprendiendoC/fast
-
-#=============================================================================
 # Target rules for targets named video_3.c
 
 # Build rule for target.
@@ -150,17 +137,17 @@ video_3.c/fast:
 .PHONY : video_3.c/fast
 
 #=============================================================================
-# Target rules for targets named video_1.c
+# Target rules for targets named curso_C
 
 # Build rule for target.
-video_1.c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 video_1.c
-.PHONY : video_1.c
+curso_C: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 curso_C
+.PHONY : curso_C
 
 # fast build rule for target.
-video_1.c/fast:
-	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/build
-.PHONY : video_1.c/fast
+curso_C/fast:
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/build
+.PHONY : curso_C/fast
 
 #=============================================================================
 # Target rules for targets named video_2.c
@@ -174,6 +161,19 @@ video_2.c: cmake_check_build_system
 video_2.c/fast:
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/build
 .PHONY : video_2.c/fast
+
+#=============================================================================
+# Target rules for targets named video_1.c
+
+# Build rule for target.
+video_1.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_1.c
+.PHONY : video_1.c
+
+# fast build rule for target.
+video_1.c/fast:
+	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/build
+.PHONY : video_1.c/fast
 
 #=============================================================================
 # Target rules for targets named video_4.c
@@ -195,7 +195,7 @@ main.o: main.c.o
 # target to build an object file
 main.c.o:
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.o
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -205,7 +205,7 @@ main.i: main.c.i
 # target to preprocess a source file
 main.c.i:
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.i
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -215,7 +215,7 @@ main.s: main.c.s
 # target to generate assembly for a file
 main.c.s:
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.s
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/main.c.s
 .PHONY : main.c.s
 
 video_1.o: video_1.c.o
@@ -224,7 +224,7 @@ video_1.o: video_1.c.o
 
 # target to build an object file
 video_1.c.o:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_1.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_1.c.o
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/video_1.c.o
 .PHONY : video_1.c.o
 
@@ -234,7 +234,7 @@ video_1.i: video_1.c.i
 
 # target to preprocess a source file
 video_1.c.i:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_1.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_1.c.i
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/video_1.c.i
 .PHONY : video_1.c.i
 
@@ -244,7 +244,7 @@ video_1.s: video_1.c.s
 
 # target to generate assembly for a file
 video_1.c.s:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_1.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_1.c.s
 	$(MAKE) -f CMakeFiles/video_1.c.dir/build.make CMakeFiles/video_1.c.dir/video_1.c.s
 .PHONY : video_1.c.s
 
@@ -254,7 +254,7 @@ video_2.o: video_2.c.o
 
 # target to build an object file
 video_2.c.o:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_2.c.o
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.o
 .PHONY : video_2.c.o
 
@@ -264,7 +264,7 @@ video_2.i: video_2.c.i
 
 # target to preprocess a source file
 video_2.c.i:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_2.c.i
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.i
 .PHONY : video_2.c.i
 
@@ -274,7 +274,7 @@ video_2.s: video_2.c.s
 
 # target to generate assembly for a file
 video_2.c.s:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_2.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_2.c.s
 	$(MAKE) -f CMakeFiles/video_2.c.dir/build.make CMakeFiles/video_2.c.dir/video_2.c.s
 .PHONY : video_2.c.s
 
@@ -284,8 +284,8 @@ video_3.o: video_3.c.o
 
 # target to build an object file
 video_3.c.o:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_3.c.o
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/video_3.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_3.c.o
 .PHONY : video_3.c.o
 
 video_3.i: video_3.c.i
@@ -294,8 +294,8 @@ video_3.i: video_3.c.i
 
 # target to preprocess a source file
 video_3.c.i:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_3.c.i
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/video_3.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_3.c.i
 .PHONY : video_3.c.i
 
 video_3.s: video_3.c.s
@@ -304,8 +304,8 @@ video_3.s: video_3.c.s
 
 # target to generate assembly for a file
 video_3.c.s:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_3.c.s
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/video_3.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_3.c.s
 .PHONY : video_3.c.s
 
 video_4.o: video_4.c.o
@@ -314,7 +314,7 @@ video_4.o: video_4.c.o
 
 # target to build an object file
 video_4.c.o:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_4.c.o
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.o
 .PHONY : video_4.c.o
 
@@ -324,7 +324,7 @@ video_4.i: video_4.c.i
 
 # target to preprocess a source file
 video_4.c.i:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_4.c.i
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.i
 .PHONY : video_4.c.i
 
@@ -334,7 +334,7 @@ video_4.s: video_4.c.s
 
 # target to generate assembly for a file
 video_4.c.s:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_4.c.s
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.s
 .PHONY : video_4.c.s
 
@@ -347,10 +347,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main.c"
-	@echo "... aprendiendoC"
 	@echo "... video_3.c"
-	@echo "... video_1.c"
+	@echo "... curso_C"
 	@echo "... video_2.c"
+	@echo "... video_1.c"
 	@echo "... video_4.c"
 	@echo "... main.o"
 	@echo "... main.i"

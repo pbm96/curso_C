@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
-project(aprendiendoC C)
+project(curso_C C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(aprendiendoC main.c video_1.c video_2.c video_3.c video_4.c)
+add_executable(curso_C main.c video_1.c video_2.c video_3.c video_4.c)
 add_executable(main.c main.c)
 
 add_executable(video_1.c video_1.c)

@@ -1,8 +1,8 @@
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/main.c.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/video_3.c.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/video_1.c.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/video_2.c.dir
-/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/video_4.c.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/main.c.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_3.c.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/curso_C.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_2.c.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_1.c.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_4.c.dir

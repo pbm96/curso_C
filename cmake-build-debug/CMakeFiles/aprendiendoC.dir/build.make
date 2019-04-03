@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/CLionProjects/aprendiendoC
+CMAKE_SOURCE_DIR = /home/pablo/Proyectos/curso_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pablo/Proyectos/curso_C/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aprendiendoC.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/aprendiendoC.dir/flags.make
 
 CMakeFiles/aprendiendoC.dir/main.c.o: CMakeFiles/aprendiendoC.dir/flags.make
 CMakeFiles/aprendiendoC.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aprendiendoC.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/main.c.o   -c /home/pablo/CLionProjects/aprendiendoC/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/aprendiendoC.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/main.c.o   -c /home/pablo/Proyectos/curso_C/main.c
 
 CMakeFiles/aprendiendoC.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aprendiendoC.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/CLionProjects/aprendiendoC/main.c > CMakeFiles/aprendiendoC.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/Proyectos/curso_C/main.c > CMakeFiles/aprendiendoC.dir/main.c.i
 
 CMakeFiles/aprendiendoC.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aprendiendoC.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/CLionProjects/aprendiendoC/main.c -o CMakeFiles/aprendiendoC.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/Proyectos/curso_C/main.c -o CMakeFiles/aprendiendoC.dir/main.c.s
 
 CMakeFiles/aprendiendoC.dir/video_1.c.o: CMakeFiles/aprendiendoC.dir/flags.make
 CMakeFiles/aprendiendoC.dir/video_1.c.o: ../video_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aprendiendoC.dir/video_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_1.c.o   -c /home/pablo/CLionProjects/aprendiendoC/video_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aprendiendoC.dir/video_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_1.c.o   -c /home/pablo/Proyectos/curso_C/video_1.c
 
 CMakeFiles/aprendiendoC.dir/video_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aprendiendoC.dir/video_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/CLionProjects/aprendiendoC/video_1.c > CMakeFiles/aprendiendoC.dir/video_1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/Proyectos/curso_C/video_1.c > CMakeFiles/aprendiendoC.dir/video_1.c.i
 
 CMakeFiles/aprendiendoC.dir/video_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aprendiendoC.dir/video_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/CLionProjects/aprendiendoC/video_1.c -o CMakeFiles/aprendiendoC.dir/video_1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/Proyectos/curso_C/video_1.c -o CMakeFiles/aprendiendoC.dir/video_1.c.s
 
 CMakeFiles/aprendiendoC.dir/video_2.c.o: CMakeFiles/aprendiendoC.dir/flags.make
 CMakeFiles/aprendiendoC.dir/video_2.c.o: ../video_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aprendiendoC.dir/video_2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_2.c.o   -c /home/pablo/CLionProjects/aprendiendoC/video_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aprendiendoC.dir/video_2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_2.c.o   -c /home/pablo/Proyectos/curso_C/video_2.c
 
 CMakeFiles/aprendiendoC.dir/video_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aprendiendoC.dir/video_2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/CLionProjects/aprendiendoC/video_2.c > CMakeFiles/aprendiendoC.dir/video_2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/Proyectos/curso_C/video_2.c > CMakeFiles/aprendiendoC.dir/video_2.c.i
 
 CMakeFiles/aprendiendoC.dir/video_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aprendiendoC.dir/video_2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/CLionProjects/aprendiendoC/video_2.c -o CMakeFiles/aprendiendoC.dir/video_2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/Proyectos/curso_C/video_2.c -o CMakeFiles/aprendiendoC.dir/video_2.c.s
 
 CMakeFiles/aprendiendoC.dir/video_3.c.o: CMakeFiles/aprendiendoC.dir/flags.make
 CMakeFiles/aprendiendoC.dir/video_3.c.o: ../video_3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aprendiendoC.dir/video_3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_3.c.o   -c /home/pablo/CLionProjects/aprendiendoC/video_3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aprendiendoC.dir/video_3.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_3.c.o   -c /home/pablo/Proyectos/curso_C/video_3.c
 
 CMakeFiles/aprendiendoC.dir/video_3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aprendiendoC.dir/video_3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/CLionProjects/aprendiendoC/video_3.c > CMakeFiles/aprendiendoC.dir/video_3.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/Proyectos/curso_C/video_3.c > CMakeFiles/aprendiendoC.dir/video_3.c.i
 
 CMakeFiles/aprendiendoC.dir/video_3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aprendiendoC.dir/video_3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/CLionProjects/aprendiendoC/video_3.c -o CMakeFiles/aprendiendoC.dir/video_3.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/Proyectos/curso_C/video_3.c -o CMakeFiles/aprendiendoC.dir/video_3.c.s
 
 CMakeFiles/aprendiendoC.dir/video_4.c.o: CMakeFiles/aprendiendoC.dir/flags.make
 CMakeFiles/aprendiendoC.dir/video_4.c.o: ../video_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/aprendiendoC.dir/video_4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_4.c.o   -c /home/pablo/CLionProjects/aprendiendoC/video_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/aprendiendoC.dir/video_4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aprendiendoC.dir/video_4.c.o   -c /home/pablo/Proyectos/curso_C/video_4.c
 
 CMakeFiles/aprendiendoC.dir/video_4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aprendiendoC.dir/video_4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/CLionProjects/aprendiendoC/video_4.c > CMakeFiles/aprendiendoC.dir/video_4.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/pablo/Proyectos/curso_C/video_4.c > CMakeFiles/aprendiendoC.dir/video_4.c.i
 
 CMakeFiles/aprendiendoC.dir/video_4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aprendiendoC.dir/video_4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/CLionProjects/aprendiendoC/video_4.c -o CMakeFiles/aprendiendoC.dir/video_4.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/pablo/Proyectos/curso_C/video_4.c -o CMakeFiles/aprendiendoC.dir/video_4.c.s
 
 # Object files for target aprendiendoC
 aprendiendoC_OBJECTS = \
@@ -140,7 +140,7 @@ aprendiendoC: CMakeFiles/aprendiendoC.dir/video_3.c.o
 aprendiendoC: CMakeFiles/aprendiendoC.dir/video_4.c.o
 aprendiendoC: CMakeFiles/aprendiendoC.dir/build.make
 aprendiendoC: CMakeFiles/aprendiendoC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable aprendiendoC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable aprendiendoC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aprendiendoC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/aprendiendoC.dir/clean:
 .PHONY : CMakeFiles/aprendiendoC.dir/clean
 
 CMakeFiles/aprendiendoC.dir/depend:
-	cd /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/CLionProjects/aprendiendoC /home/pablo/CLionProjects/aprendiendoC /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug /home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/CMakeFiles/aprendiendoC.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pablo/Proyectos/curso_C/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Proyectos/curso_C /home/pablo/Proyectos/curso_C /home/pablo/Proyectos/curso_C/cmake-build-debug /home/pablo/Proyectos/curso_C/cmake-build-debug /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/aprendiendoC.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aprendiendoC.dir/depend
 
