@@ -27,6 +27,56 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main.c">
+				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/main.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main.c/fast">
+				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/main.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="aprendiendoC">
 				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/aprendiendoC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
@@ -187,8 +237,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c">
-				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/main.c" prefix_auto="0" extension_auto="0"/>
+			<Target title="video_4.c">
+				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/video_4.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -201,14 +251,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 video_4.c"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.c/fast">
-				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/main.c" prefix_auto="0" extension_auto="0"/>
+			<Target title="video_4.c/fast">
+				<Option output="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/video_4.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -221,17 +271,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.c/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 video_4.c/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pablo/CLionProjects/aprendiendoC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -239,8 +279,8 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/pablo/CLionProjects/aprendiendoC/main.c">
-			<Option target="aprendiendoC"/>
 			<Option target="main.c"/>
+			<Option target="aprendiendoC"/>
 		</Unit>
 		<Unit filename="/home/pablo/CLionProjects/aprendiendoC/video_1.c">
 			<Option target="aprendiendoC"/>
@@ -253,6 +293,10 @@
 		<Unit filename="/home/pablo/CLionProjects/aprendiendoC/video_3.c">
 			<Option target="aprendiendoC"/>
 			<Option target="video_3.c"/>
+		</Unit>
+		<Unit filename="/home/pablo/CLionProjects/aprendiendoC/video_4.c">
+			<Option target="aprendiendoC"/>
+			<Option target="video_4.c"/>
 		</Unit>
 		<Unit filename="/home/pablo/CLionProjects/aprendiendoC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

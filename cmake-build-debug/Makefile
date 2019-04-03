@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named main.c
+
+# Build rule for target.
+main.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main.c
+.PHONY : main.c
+
+# fast build rule for target.
+main.c/fast:
+	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
+.PHONY : main.c/fast
+
+#=============================================================================
 # Target rules for targets named aprendiendoC
 
 # Build rule for target.
@@ -163,17 +176,17 @@ video_2.c/fast:
 .PHONY : video_2.c/fast
 
 #=============================================================================
-# Target rules for targets named main.c
+# Target rules for targets named video_4.c
 
 # Build rule for target.
-main.c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main.c
-.PHONY : main.c
+video_4.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_4.c
+.PHONY : video_4.c
 
 # fast build rule for target.
-main.c/fast:
-	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/build
-.PHONY : main.c/fast
+video_4.c/fast:
+	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/build
+.PHONY : video_4.c/fast
 
 main.o: main.c.o
 
@@ -181,8 +194,8 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.o
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.o
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -191,8 +204,8 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.i
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.i
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -201,8 +214,8 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.s
 	$(MAKE) -f CMakeFiles/main.c.dir/build.make CMakeFiles/main.c.dir/main.c.s
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/main.c.s
 .PHONY : main.c.s
 
 video_1.o: video_1.c.o
@@ -295,6 +308,36 @@ video_3.c.s:
 	$(MAKE) -f CMakeFiles/video_3.c.dir/build.make CMakeFiles/video_3.c.dir/video_3.c.s
 .PHONY : video_3.c.s
 
+video_4.o: video_4.c.o
+
+.PHONY : video_4.o
+
+# target to build an object file
+video_4.c.o:
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.o
+	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.o
+.PHONY : video_4.c.o
+
+video_4.i: video_4.c.i
+
+.PHONY : video_4.i
+
+# target to preprocess a source file
+video_4.c.i:
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.i
+	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.i
+.PHONY : video_4.c.i
+
+video_4.s: video_4.c.s
+
+.PHONY : video_4.s
+
+# target to generate assembly for a file
+video_4.c.s:
+	$(MAKE) -f CMakeFiles/aprendiendoC.dir/build.make CMakeFiles/aprendiendoC.dir/video_4.c.s
+	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.s
+.PHONY : video_4.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -302,12 +345,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... main.c"
 	@echo "... aprendiendoC"
 	@echo "... video_3.c"
 	@echo "... video_1.c"
 	@echo "... video_2.c"
-	@echo "... main.c"
-	@echo "... edit_cache"
+	@echo "... video_4.c"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -320,6 +364,9 @@ help:
 	@echo "... video_3.o"
 	@echo "... video_3.i"
 	@echo "... video_3.s"
+	@echo "... video_4.o"
+	@echo "... video_4.i"
+	@echo "... video_4.s"
 .PHONY : help
 
 
