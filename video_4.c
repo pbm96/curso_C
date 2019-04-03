@@ -20,7 +20,7 @@ int main() {
 
     do{
 
-        printf("\n Introduzca un numero: ");
+        printf("\n Introduzca un numeroo: ");
 
         scanf("%i", &adivinanza);
 
