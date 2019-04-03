@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named video_5.c
+
+# Build rule for target.
+video_5.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_5.c
+.PHONY : video_5.c
+
+# fast build rule for target.
+video_5.c/fast:
+	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/build
+.PHONY : video_5.c/fast
+
+#=============================================================================
 # Target rules for targets named main.c
 
 # Build rule for target.
@@ -338,6 +351,36 @@ video_4.c.s:
 	$(MAKE) -f CMakeFiles/video_4.c.dir/build.make CMakeFiles/video_4.c.dir/video_4.c.s
 .PHONY : video_4.c.s
 
+video_5.o: video_5.c.o
+
+.PHONY : video_5.o
+
+# target to build an object file
+video_5.c.o:
+	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/video_5.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_5.c.o
+.PHONY : video_5.c.o
+
+video_5.i: video_5.c.i
+
+.PHONY : video_5.i
+
+# target to preprocess a source file
+video_5.c.i:
+	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/video_5.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_5.c.i
+.PHONY : video_5.c.i
+
+video_5.s: video_5.c.s
+
+.PHONY : video_5.s
+
+# target to generate assembly for a file
+video_5.c.s:
+	$(MAKE) -f CMakeFiles/video_5.c.dir/build.make CMakeFiles/video_5.c.dir/video_5.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_5.c.s
+.PHONY : video_5.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -345,6 +388,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... video_5.c"
 	@echo "... edit_cache"
 	@echo "... main.c"
 	@echo "... video_3.c"
@@ -367,6 +411,9 @@ help:
 	@echo "... video_4.o"
 	@echo "... video_4.i"
 	@echo "... video_4.s"
+	@echo "... video_5.o"
+	@echo "... video_5.i"
+	@echo "... video_5.s"
 .PHONY : help
 
 

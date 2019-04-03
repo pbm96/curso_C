@@ -1,4 +1,5 @@
 /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_5.c.dir
 /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/main.c.dir
 /home/pablo/Proyectos/curso_C/cmake-build-debug/CMakeFiles/video_3.c.dir

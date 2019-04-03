@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/video_5.c.dir/DependInfo.cmake"
   "CMakeFiles/main.c.dir/DependInfo.cmake"
   "CMakeFiles/video_3.c.dir/DependInfo.cmake"
   "CMakeFiles/curso_C.dir/DependInfo.cmake"
