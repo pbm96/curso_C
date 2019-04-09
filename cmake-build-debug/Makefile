@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named video_8.c
+
+# Build rule for target.
+video_8.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 video_8.c
+.PHONY : video_8.c
+
+# fast build rule for target.
+video_8.c/fast:
+	$(MAKE) -f CMakeFiles/video_8.c.dir/build.make CMakeFiles/video_8.c.dir/build
+.PHONY : video_8.c/fast
+
+#=============================================================================
 # Target rules for targets named video_7.c
 
 # Build rule for target.
@@ -467,6 +480,36 @@ video_7.c.s:
 	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_7.c.s
 .PHONY : video_7.c.s
 
+video_8.o: video_8.c.o
+
+.PHONY : video_8.o
+
+# target to build an object file
+video_8.c.o:
+	$(MAKE) -f CMakeFiles/video_8.c.dir/build.make CMakeFiles/video_8.c.dir/video_8.c.o
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_8.c.o
+.PHONY : video_8.c.o
+
+video_8.i: video_8.c.i
+
+.PHONY : video_8.i
+
+# target to preprocess a source file
+video_8.c.i:
+	$(MAKE) -f CMakeFiles/video_8.c.dir/build.make CMakeFiles/video_8.c.dir/video_8.c.i
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_8.c.i
+.PHONY : video_8.c.i
+
+video_8.s: video_8.c.s
+
+.PHONY : video_8.s
+
+# target to generate assembly for a file
+video_8.c.s:
+	$(MAKE) -f CMakeFiles/video_8.c.dir/build.make CMakeFiles/video_8.c.dir/video_8.c.s
+	$(MAKE) -f CMakeFiles/curso_C.dir/build.make CMakeFiles/curso_C.dir/video_8.c.s
+.PHONY : video_8.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -474,6 +517,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... video_8.c"
 	@echo "... video_7.c"
 	@echo "... video_6.c"
 	@echo "... video_5.c"
@@ -508,6 +552,9 @@ help:
 	@echo "... video_7.o"
 	@echo "... video_7.i"
 	@echo "... video_7.s"
+	@echo "... video_8.o"
+	@echo "... video_8.i"
+	@echo "... video_8.s"
 .PHONY : help
 
 

@@ -18,7 +18,6 @@ int main() {
 
     menu();
 
-
     return 0;
 }
 
@@ -76,6 +75,7 @@ void depositar(float cantidad){
 
     menu();
 }
+
 
 void retirar(float cantidad){
 
